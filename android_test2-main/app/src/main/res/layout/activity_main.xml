@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#f5f5f5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android界面布局实验"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="线性布局实验"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="表格布局实验"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnConstraintLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="约束布局实验1"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FF9800"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/btnConstraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="约束布局实验2"
+        android:backgroundTint="#9C27B0"
+        android:textColor="#fff" />
+
+</LinearLayout>
